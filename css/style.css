@@ -14,7 +14,7 @@ body{
 }
 
 header{
-background-color: #48C5CE;
+background-color: #17cf20;
 text-align: center;
 color: white;
 padding: 10px;
@@ -27,7 +27,7 @@ padding: 10px;
 
 section{
     padding: 20px;
-    background-image: url('../imagens/people.jpg');
+    background-image: url('../imagens/people.png');
     background-size: cover;
     overflow: hidden;
 
@@ -59,7 +59,7 @@ input, select{
 
 input[type="submit"]{
     color: white;
-    background-color:#48C5CE;
+    background-color:#17cf20;
     font-weight: bold;
 }
 
@@ -80,7 +80,9 @@ footer{
 }
 
 .picture{
-    width: 160px;
+    max-width: 310px;
+    height: 360px;
+    margin-top: 25px;
 }
 
 .description{
