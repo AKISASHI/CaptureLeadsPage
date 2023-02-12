@@ -21,7 +21,7 @@ padding: 10px;
 }
 
 .title{
-    font-size: 26px;
+    font-size: 29px;
 
 }
 
@@ -35,9 +35,17 @@ section{
 
 .formContainer{
     max-width: 230px;
-    background-color: #FFFFFFBB;
+    background-color: #e7e5e5ef;
     padding: 20px;
     float: right;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
     
 }
 
@@ -63,16 +71,6 @@ input[type="submit"]{
     font-weight: bold;
 }
 
-select{
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    background-image: url(../imagens/arrow.jpg);
-    background-repeat: no-repeat;
-    background-position: calc(100% - 10px) center;
-    
-}
-
 footer{
     background-color: #202121;
     padding: 40px;
@@ -82,7 +80,7 @@ footer{
 .picture{
     max-width: 310px;
     height: 360px;
-    margin-top: 25px;
+    margin-top: -25px;
 }
 
 .description{
@@ -99,5 +97,56 @@ footer{
 }
 
 .description h3{
-    font-size: 24px;
+    font-size: 1.2em;
+}
+
+@media (max-width: 500px) {
+    .formContainer{
+      max-width: 65%;
+      float: none;
+      background-color: #f3f3f3fa;
+      font-size: 21.5px;
+    }
+
+    .picture{
+        max-width: 280px;
+        height: 310px;
+        margin-top: -25px;
+    }
+
+    .description {
+        text-align: left;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 25px;
+        font-size: 6vw;
+        
+    }
+
+    input, select{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        border: none;
+        margin-bottom: 16px;
+        font-size: 24px;
+        
+    }
+    
+    input[type="submit"]{
+        color: white;
+        background-color:#17cf20;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 15px 0
+    }
+
+    .title{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+    
 }
