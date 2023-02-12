@@ -102,7 +102,7 @@ footer{
 
 @media (max-width: 500px) {
     .formContainer{
-      max-width: 65%;
+      max-width: 90%;
       float: none;
       background-color: #f3f3f3fa;
       font-size: 21.5px;
